@@ -1,0 +1,192 @@
+
+*    { box-sizing: border-box;} 
+html { 
+  font-size:                       100%; 
+}
+
+a {
+  text-decoration:                 none;
+  cursor:                       pointer;
+
+}
+body {
+  width:                           100%;
+  height:                         100vh;
+  font-family: 'Montserrat', sans-serif;
+  color:                        #211138;
+
+}
+h2, p, ul {
+  margin:                             0;
+} 
+
+h2 {
+  font-size:                       40px;
+  margin-bottom:                .625rem;
+}
+
+
+/*============== Logo Style ======================= */
+.logo {
+  float: left;
+  margin-top:                        1rem;
+  margin-left:                   1.875rem;
+  }
+/*============== Side-1 Style ====================== */
+
+article {
+  display:                        table;
+  width:                           100%;
+  height:                          100vh;
+}
+
+.side-1 {
+  float: left;
+  width:                            50%;
+  height:                         100vh;
+  background-color:             #6200ea;
+}
+.box-1 {
+  width:                         66.5% ;
+  height:                           45%;
+  margin:                     35% 16.1%;
+}
+.inbox {
+  display:                        flex;
+}
+
+.icon-side {
+ width:                         3.3rem;
+ height:                        3.1rem;
+ padding:                       .625vw;
+ border-radius:                    50%;
+ margin-right:                 1.25rem;
+ background-color:             #ffffff;
+ text-align:                    center;
+}
+
+.licon {
+  color:                      #6200ea;
+  font-size:                   1.5rem;
+      } 
+
+.ltext {
+  margin:                           0;
+  color:                      #ffffff;
+  font-size:                   2.5rem;
+  margin-bottom:                 5rem;
+  text-align:                  center;
+    }
+
+/*============== Side-2 Style ====================== */
+
+.side-2 {
+  content: '';
+  top: 0;
+  float:                          right;
+  width:                            50%;
+  height:                          100vh;
+  background-image: url(assets/bailey-zindel-396398-unsplash1.jpg);
+  background-size:                cover;
+
+  
+}
+.box-2 {
+  margin:                16.25% 16.25%;
+  width:                         67.5%;
+  height:                        60.5%;
+  background-color:            #FFFFFF;
+  border-radius:                  15px;
+  padding:                         9%;
+}
+
+/*============== Imput Style ====================== */
+
+input[type=text], textarea {
+  width:                          100%;
+  height:                     4.125rem;
+  background-color:               #ccc;
+  border: 2px solid            #ffffff;
+  padding:                        13px;
+  box-sizing:               border-box;
+  margin-bottom:               .915rem;
+  resize:                     vertical;
+  font:           Bold 14px Montserrat;
+  letter-spacing:                  0px;
+  color:                       #211138;
+  opacity:                           1;
+}
+
+input[type=submit] {
+  width:                          100%;
+  background: #6200EA 0% 0% no-repeat padding-box;
+  color:                       #FFFFFF;
+  padding:              .925rem .25rem;
+  border:            2px solid #6200EA;
+  border-radius:                  24px;
+  cursor:                      pointer;
+}
+
+input[type=submit]:hover {
+  background-color:            #FFFFFF;
+  color:                       #6200EA;
+}
+input[type=submit-1] {
+  text-align:                   center;
+  width:                          100%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  color:                       #6200EA;
+  padding:              .925rem .25rem;
+  border:            2px solid #6200EA;
+  border-radius:                  24px;
+  cursor:                      pointer;
+}
+input[type=submit-1]:hover {
+  background-color:            #6200EA;
+  color:                       #FFFFFF;
+}
+
+.container {
+  border-radius:                   5px;
+  background-color:            #FFFFFF;
+  margin-top:                     2rem;
+}
+#passw {
+font:        Bold 14px/18px Montserrat;
+letter-spacing:                    0px;
+color:                         #211138;
+opacity:                          0.25;
+}
+.forget {
+text-align:                      right;
+font:        Bold 12px/15px Montserrat;
+letter-spacing:                  2.4px;
+color:                         #6200EA;
+text-transform:              uppercase;
+opacity:                             1;
+float:                           right;
+margin:          -.4rem 0rem 4rem 1rem;
+}
+
+
+
+/*============== footer Style ====================== */
+
+footer {
+height:                        100px;
+text-align:                   center;
+background-color:            #211138;
+padding:             2.4rem 0 3rem 0;
+margin:                            0;
+
+}
+.footer-1 {
+  text-transform:          uppercase; 
+  font-size:                 .857rem; 
+  font-weight:                  bold; 
+  letter-spacing:            .171rem; 
+  color:                     #b2acba;
+}
+.ftext-1 {
+  color:                     #6200EA;
+}
